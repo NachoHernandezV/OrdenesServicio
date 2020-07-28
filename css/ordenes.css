@@ -1,0 +1,131 @@
+body{
+    background-image: url("../imagenes/sistemas10.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container{
+    display:grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+    margin-top: 8PX;
+
+}
+.item{
+    background:rgba(110,110,110,0.9);/*#7CB894*/
+    padding: 0px;
+    border: solid 1px black;
+    margin: 2px;
+}
+.containertitulo{
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.itemtitulo{
+    background:rgba(110,110,110,0.9);/*#7CB894*/
+    padding: 0px;
+    margin: 0px;
+}
+.item .item{
+    justify-content: end;
+    padding: 5px;
+    margin:2px;
+    border:none;
+    background:rgba(110,110,110,0);/*#7CB894*/
+    font-weight: bold;
+}
+.item .item .item{
+    background:rgba(110,110,110,0);/*#7CB894*/
+    color:black;
+    font-weight: bold;
+}
+
+.container_footer{
+    display:grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+      margin-top: 8PX;
+}
+.centrado{
+    width: 99%;
+    text-align: center;
+}
+.derecha{
+    width: 99%;
+    text-align: right;
+}
+p{
+    padding: 0px;
+    margin:0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.agregarmargen{
+    margin-top:35px;
+}
+.agregarmargenabajo{
+    margin-bottom:35px;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    color: #F7F8E0;
+}
+h2{
+    width: 100%;
+    text-align: center;
+}
+.fecha{
+  width: 145px;
+  padding: 10px 0 10px 15px;
+  font-family: "Open Sans", sans;
+  font-weight: 200;
+  color: #377D6A;
+  background: #efefef;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+
+}
+.checbox{
+    width:25px;
+    height:25px;
+}
+.boton{
+    padding: 0px auto 0px auto;
+}
+.item-graficos{
+    display:grid;
+    grid-template-columns: 25% 25% 25%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background:none;
+}
+.item2{
+    margin: 5px;
+    color:#DBA901;
+    font-weight: bold;
+}
+
+/*PARA LAS FECHAS*/
+.mifecha
+ {
+ background-color:#ff7800; padding:3px; width:110px; text-align:center; font-family:verdana, arial; font-size:12pt; border-radius:5px;
+ }
+.mifecha .ano
+{
+  background-color:#707070; color:#ffe3c1; padding:2px; font-size:90%; margin-bottom:3px; letter-spacing:2px; font-weight:bold;
+}
+.mifecha .dia
+{
+background-color:#4ba3d8; color:#1957c0; font-size:180%; padding:2px 8px 5px; margin-bottom:3px; font-weight:bold; text-shadow:1px 1px 1px #000;
+}
+.mifecha .mes
+{
+background-color:#707070; color:#ffe3c1; font-size:70%; padding:2px; font-weight:bold;
+}

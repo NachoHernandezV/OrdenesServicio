@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,800);
+* {
+  box-sizing: border-box;
+}
+
+
+
+.basic-slide_c {
+  display: inline-block;
+  padding: 10px 0 10px 15px;
+  font-family: "Open Sans", sans;
+  font-weight: 300;
+  color: #377D6A;
+  background: #efefef;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  text-indent: 70px;
+  transition: all .3s ease-in-out;
+}
+.basic-slide_c::-webkit-input-placeholder {
+  color: #efefef;
+  text-indent: 0;
+  font-weight: 300;
+}
+.basic-slide_c + label {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 15px;
+  text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
+  background: #7AB893;
+  transition: all .3s ease-in-out;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.basic-slide_c:focus,
+.basic-slide_c:active {
+  color: #377D6A;
+  text-indent: 0;
+  background: #fff;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.basic-slide_c:focus::-webkit-input-placeholder,
+.basic-slide_c:active::-webkit-input-placeholder {
+  color: #aaa;
+}
+.basic-slide_c:focus + label,
+.basic-slide_c:active + label {
+  transform: translateX(-100%);
+}
+
